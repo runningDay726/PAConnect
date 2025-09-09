@@ -1,0 +1,25 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+var u = navigator.userAgent;
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+// alert('是否是Android：'+isAndroid);
+// alert('是否是iOS：'+isiOS);
+	if (isAndroid) {
+		location.href = "https://github.com/runningDay726/PAConnect/raw/refs/heads/main/PA%20Connect%201.3.0.apk";
+	} else if (isIOS) {
+		location.href = "https://itunes.apple.com/app/6535654541";
+	} else {
+		location.href = "https://github.com/runningDay726/PAConnect/raw/refs/heads/main/PA%20Connect%201.3.0.apk";
+	}
+</script>
+
+</head>
+
+<body>
+</body>
